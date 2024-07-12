@@ -3,9 +3,11 @@ const app = express();
 const port = 3000;
 app.use(express.static("public"));
 app.get("/", (req, res) => {
-  res.send("<h2 style = 'color:red;'>work is done</h2>");
+  res.render("index.ejs");
 });
-
+  app.get("/login", (req,res)=>{
+    res.render("login.ejs");
+  })
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
