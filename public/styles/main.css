@@ -67,6 +67,7 @@ body{
     justify-content: space-between;
     padding-left: 10px;
     padding-right: 10px;
+   
 }
 #navbar ul{
     display: flex;
@@ -125,5 +126,25 @@ body{
     }
     .verticalbarhire{
         display: inline;
+    }
+}
+.footer-img{
+    filter: grayscale(100%);
+}
+@media (max-width: 990px) {
+    .circle-img {
+        height: 200px;
+        width: 200px; /* Make sure the width and height are the same to create a circle */
+        border: 2px solid rgba(199, 199, 199, 0.1);
+        border-radius: 50%;
+        object-fit: cover;
+        
+    }
+    .pjustify{
+        text-align: justify;
+        
+    }
+    .forpad{
+        margin-left: 22px;
     }
 }
