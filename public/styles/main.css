@@ -16,6 +16,14 @@ body{
  
     
   }
+  .typed-text {
+    color: #1e3c72;
+  }
+  
+  .cursor {
+    background: linear-gradient(135deg, #4011cb 0%, #2a5298 100%);
+
+  }
 .item{
     background-color: blueviolet;
     height: 300px;
@@ -146,5 +154,11 @@ body{
     }
     .forpad{
         margin-left: 22px;
+    }
+}
+@media (max-width:666px) {
+    .smallMap{
+        height: 200px;
+        width: 200px;
     }
 }
