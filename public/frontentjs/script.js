@@ -11,7 +11,7 @@ burger.addEventListener("click", ()=>{
 const typedTextSpan = document.querySelector(".typed-text");
 const cursor = document.querySelector(".cursor");
 
-const words = ["full stack developer", "Java developer", "C programmer"];
+const words = ["Full stack developer", "Java developer", "Blockchain developer", "C programmer"];
 const typingDelay = 100;
 const erasingDelay = 100;
 const newLetterDelay = 2000;
